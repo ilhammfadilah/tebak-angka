@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Tebak Angka</title>
+    <script src="main.js" async defer></script>
+</head>
+
+<body onload="init()">
+
+    <main>
+        <h1>Tebak Angka</h1>
+        <p>coba cek hoki kamu dengan bermain tebak angka.</p>
+
+        <div class="card">
+            <div class="card-header">silahkan masukan akan dari 1 - 10</div>
+            <div class="card-body">
+                <input type="number" class="inputNumber">
+                <button class="btnTebak" onclick="check()">Tebak</button>
+            </div>
+            <div class="card-footer">
+                <div class="alert">
+                </div>
+            </div>
+        </div>
+
+        <div class="status">
+            <div class="point">
+                <span>Jumlah Point: <span id="point"></span></span>
+            </div>
+            <div class="hp">
+                <span>Sisa Menebak: <span id="hp"></span></span>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

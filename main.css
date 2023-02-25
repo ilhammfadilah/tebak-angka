@@ -1,0 +1,101 @@
+:root {
+    --primary-green: #1F8A70;
+    --secondary-green: #BFDB38;
+    --black: #00425A;
+    --gray: #656464;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button,
+input {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00425A;
+    width: 100vw;
+}
+
+body {
+
+}
+
+main {
+    padding: 1rem;
+    width: 32rem;
+    margin: 0 auto;
+}
+
+main * {
+    margin: 0 auto;
+}
+
+main h1 {
+    color: var(--black);
+}
+
+main p {
+    margin-top: .5rem;
+    color: var(--gray);
+}
+
+.card {
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid #eee;
+    margin-top: 2rem;
+}
+
+.card-body {
+    margin: 1rem 0;
+}
+
+.card-body input {
+    display: block;
+    width: 100%;
+    border: 1px solid #00425A;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.card-body button {
+    margin-top: 1rem;
+    background-color: #1F8A70;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-body button:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+.card-footer .alert {
+    background-color: #BFDB38;
+    padding: 1rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.status {
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
